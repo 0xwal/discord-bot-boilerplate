@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xWaleed/discord-bot-boilerplate.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "node"
+  ],
+  "author": "0xWaleed <imwaleed@outlook.sa>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xWaleed/discord-bot-boilerplate/issues"
+  },
+  "homepage": "https://github.com/0xWaleed/discord-bot-boilerplate#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
