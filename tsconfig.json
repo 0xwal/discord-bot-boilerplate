@@ -68,6 +68,11 @@
     "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
    "resolveJsonModule": true
   },
+  "include": [
+    "app/",
+    "bot-config.ts",
+    "types/bot-config.d.ts"
+  ],
   "exclude": [
     "node_modules",
     "dist"
