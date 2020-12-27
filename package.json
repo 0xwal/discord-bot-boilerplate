@@ -21,5 +21,8 @@
   "homepage": "https://github.com/0xWaleed/discord-bot-boilerplate#readme",
   "devDependencies": {
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1"
   }
 }
