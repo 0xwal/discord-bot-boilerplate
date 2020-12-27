@@ -1,10 +1,6 @@
-export {};
-declare global
+interface BotConfig
 {
-    export interface BotConfig
-    {
-        prefix: string;
-        name?: string;
-        token: string;
-    }
+    prefix: string;
+    name?: string;
+    token: string;
 }
