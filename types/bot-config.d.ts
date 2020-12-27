@@ -5,5 +5,6 @@ declare global
     {
         prefix: string;
         name?: string;
+        token: string;
     }
 }
