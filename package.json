@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "rm -rf dist && rm -rf babel",
     "build": "tsc && babel dist -d dist",
-    "start": "npm run build && node dist/app/main.js"
+    "start": "npm run build && node --unhandled-rejections=strict dist/app/main.js"
   },
   "repository": {
     "type": "git",
