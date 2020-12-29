@@ -13,5 +13,6 @@ function getToken(): string
 
 export const botConfig: BotConfig = {
     prefix: '^',
-    token: getToken()
+    token: getToken(),
+    processMessage: true
 };
