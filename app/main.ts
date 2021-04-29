@@ -34,6 +34,7 @@ async function initMessagesProcess(config: ProcessMessageDataType)
             const contentWithoutPrefix = message.content.replace(botConfig.prefix, '');
             const commandEventData = new CommandEventData();
             commandEventData.data = {};
+            commandEventData.message = message;
             commandHandler.handle(contentWithoutPrefix, commandEventData);
         } catch (e) {
             //todo: handle the error

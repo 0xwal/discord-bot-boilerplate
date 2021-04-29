@@ -10,7 +10,7 @@ export default class HelloCommand implements CommandInterface
 
     async handle(commandEventData: CommandEventData, ...args: string[]): Promise<any>
     {
-        console.log('got a message');
+        commandEventData.message?.reply("Hi")
     }
 
     identifier(): string
